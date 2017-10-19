@@ -7,7 +7,7 @@
 //
 
 #include <iostream>
-#include "omp.h"
+//#include "omp.h"
 
 using namespace std;
 
@@ -15,5 +15,9 @@ using namespace std;
 int main(int argc, const char * argv[]) {
     // insert code here...
     cout << "Hello, World!\n";
-    return 1;
+    while (1) {
+        //<#statements#>
+    }
+    return 0;
+    
 }
