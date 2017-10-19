@@ -10,21 +10,20 @@
 #include "omp.h"
 
 using namespace std;
+int i=0;
 
-
-int i=0;
-
 int main(int argc, const char * argv[]) {
 
-//#pragma omp parallel
-    
+
+#pragma omp parallel
     {
     cout << "Hello, World2!\n";
     while (1) {
         
         break;
     }
-    return 0;
     }
-    
+
+return 0;
+
 }
