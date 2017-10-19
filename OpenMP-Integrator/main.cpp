@@ -16,7 +16,8 @@ int main(int argc, const char * argv[]) {
     // insert code here...
     cout << "Hello, World!\n";
     while (1) {
-        //<#statements#>
+        
+        break;
     }
     return 0;
     
