@@ -13,12 +13,16 @@ using namespace std;
 
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
+
+#pragma omp parallel
+    
+    {
     cout << "Hello, World!\n";
     while (1) {
         
         break;
     }
     return 0;
+    }
     
 }
